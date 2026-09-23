@@ -4,7 +4,7 @@
     "title": "TP N° 1: Introducción a los Sistemas Operativos y Estructuras de Computación",
     "catedra": "Teoría de Sistemas Operativos - UNJu Facultad de Ingeniería",
     "version": "1.0.0",
-    "submitted_at": "2026-09-12T04:05:27.888Z"
+    "submitted_at": "2026-09-23T03:03:16.912Z"
   },
   "student": {
     "name": "Margarita Mariela Dominguez",
@@ -20,16 +20,25 @@
       "administracion_memoria": true,
       "gestion_usuarios_permisos": true,
       "administracion_sistema_archivos": true,
-      "gestion_dispositivos_io": true
+      "gestion_dispositivos_io": true,
+      "diseno_paginas_web": false,
+      "edicion_imagenes": false
     },
     "ej3_multithreading_vs_multicore": {},
-    "ej4_programa_vs_proceso": {},
+    "ej4_programa_vs_proceso": {
+      "item_chrome_exe": "PROGRAMA",
+      "item_word_exe": "PROGRAMA",
+      "item_game_running": "PROGRAMA",
+      "item_chrome_ram": "PROCESO",
+      "item_word_editing": "PROCESO",
+      "item_game_installed": "PROCESO"
+    },
     "ej5_funciones_situaciones": {
       "sit_guardar_carpeta": "FS_MGMT",
       "sit_imprimir_pdf": "IO_MGMT",
-      "sit_abrir_simultaneo": "SYS_CALL_GUI",
+      "sit_abrir_simultaneo": "PROC_MGMT",
       "sit_usar_mouse_teclado": "IO_INTERRUPT",
-      "sit_doble_clic_icono": "PROC_MGMT",
+      "sit_doble_clic_icono": "SYS_CALL_GUI",
       "sit_asignar_ram_app": "MEM_MGMT"
     },
     "ej6_modo_usuario_kernel": {
@@ -42,12 +51,12 @@
       "act_7_controlador_disco": "MK",
       "act_8_excel": "MU",
       "act_9_asignar_cpu": "MK",
-      "act_10_permisos_archivos": "MU",
+      "act_10_permisos_archivos": "MK",
       "act_11_modificar_mapa_memoria": "MK",
       "act_12_cambiar_reloj_hw": "MU",
       "act_13_escribir_busqueda": "MU",
-      "act_14_reconocer_usb": "MU",
-      "act_15_asignar_memoria_chrome": "MU"
+      "act_14_reconocer_usb": "MK",
+      "act_15_asignar_memoria_chrome": "MK"
     },
     "ej7_estructuras_kernel_vf": {
       "vf_1_kernel_admin_hw": true,
@@ -67,7 +76,17 @@
       "vf_15_hibridos_eliminan_desventajas_total": false
     },
     "ej8_tipos_sistemas_operativos": {
-      "so_tarjeta_sim": "SO_SMARTCARD"
+      "so_tarjeta_sim": "SO_SMARTCARD",
+      "so_marcapasos": "SO_RT_HARD",
+      "so_cajeros_banco": "SO_MAINFRAME",
+      "so_horno_microondas": "SO_EMBEDDED",
+      "so_smartphone": "SO_MOBILE",
+      "so_supercomputadora": "SO_MULTIPROC_DISTRIB",
+      "so_laptop_estudiante": "SO_PC",
+      "so_aeropuerto_vuelos": "SO_RT_HARD",
+      "so_horno_secado": "SO_EMBEDDED",
+      "so_ecommerce_web": "SO_SERVER",
+      "so_transparente_multiprocesador": "SO_MULTIPROC_DISTRIB"
     },
     "ej9_arquitectura_proteccion_mc": {
       "mc_dma": "dma_libera_cpu",
