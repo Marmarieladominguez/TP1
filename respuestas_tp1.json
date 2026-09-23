@@ -4,7 +4,7 @@
     "title": "TP N° 1: Introducción a los Sistemas Operativos y Estructuras de Computación",
     "catedra": "Teoría de Sistemas Operativos - UNJu Facultad de Ingeniería",
     "version": "1.0.0",
-    "submitted_at": "2026-09-23T03:03:16.912Z"
+    "submitted_at": "2026-09-23T03:36:01.633Z"
   },
   "student": {
     "name": "Margarita Mariela Dominguez",
@@ -24,7 +24,16 @@
       "diseno_paginas_web": false,
       "edicion_imagenes": false
     },
-    "ej3_multithreading_vs_multicore": {},
+    "ej3_multithreading_vs_multicore": {
+      "hardware_multithreading": "hw_single_core_multi_regs",
+      "paralelismo_multithreading": "par_logico_concurrencia",
+      "rendimiento_multithreading": "perf_moderado_latencia",
+      "costo_multithreading": "cost_bajo_menor_silicio",
+      "costo_multicore": "cost_alto_mayor_silicio",
+      "rendimiento_multicore": "perf_alto_paralelo",
+      "paralelismo_multicore": "par_fisico_simultaneo",
+      "hardware_multicore": "hw_multiple_cpu_cores"
+    },
     "ej4_programa_vs_proceso": {
       "item_chrome_exe": "PROGRAMA",
       "item_word_exe": "PROGRAMA",
@@ -53,7 +62,7 @@
       "act_9_asignar_cpu": "MK",
       "act_10_permisos_archivos": "MK",
       "act_11_modificar_mapa_memoria": "MK",
-      "act_12_cambiar_reloj_hw": "MU",
+      "act_12_cambiar_reloj_hw": "MK",
       "act_13_escribir_busqueda": "MU",
       "act_14_reconocer_usb": "MK",
       "act_15_asignar_memoria_chrome": "MK"
